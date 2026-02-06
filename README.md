@@ -144,7 +144,3 @@ docker compose run --rm scenario-runner python -m orchestration.scenarios.run_sc
 # Scenario C (Damage 5-class)
 docker compose run --rm scenario-runner python -m orchestration.scenarios.run_scenario --scenario C --dataset data/kaggle/disaster-damage-5class --kaggle damage5 --theta 0.7 --n 50
 ```
-
-## Paper-ready text
-- Section 5 draft: `docs/paper_section5_full.md`
-- Conclusion draft: `docs/paper_conclusion_nato.md`
