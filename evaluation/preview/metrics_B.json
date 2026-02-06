@@ -1,0 +1,10 @@
+{
+  "scenario": "B",
+  "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+  "kaggle": "fire",
+  "p95_latency_ms": 490.08244019987615,
+  "mean_latency_ms": 362.12165476301476,
+  "events_per_min": 0.0,
+  "n_frames": 38,
+  "timestamp": "2026-02-05T19:10:02"
+}

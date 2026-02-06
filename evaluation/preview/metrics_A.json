@@ -1,0 +1,10 @@
+{
+  "scenario": "A",
+  "dataset": "data/kaggle/PeopleCountingDataSet",
+  "kaggle": "peoplecounting",
+  "p95_latency_ms": 21.870083150315622,
+  "mean_latency_ms": 19.002734079913353,
+  "events_per_min": 20.641034673752326,
+  "n_frames": 50,
+  "timestamp": "2026-02-05T19:09:46"
+}

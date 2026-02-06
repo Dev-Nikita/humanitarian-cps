@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/arvr_event.schema.json",
+  "title": "AR/VR Event Envelope",
+  "type": "object",
+  "required": ["id", "ts", "event_type", "confidence", "frame", "visualization"],
+  "properties": {
+    "id": { "type": "string" },
+    "ts": { "type": "number" },
+    "event_type": { "type": "string" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "sources": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "frame": {
+      "type": "object",
+      "required": ["coord_system"],
+      "properties": {
+        "coord_system": { "type": "string", "enum": ["wgs84", "enu", "local"] },
+        "pose": {
+          "type": "object",
+          "properties": {
+            "position": { "$ref": "#/$defs/vec3" },
+            "orientation_quat": { "$ref": "#/$defs/quat" }
+          }
+        },
+        "geo": {
+          "type": "object",
+          "properties": {
+            "lat": { "type": "number" },
+            "lon": { "type": "number" },
+            "alt_m": { "type": "number" }
+          }
+        }
+      }
+    },
+    "payload": { "type": "object", "default": {} },
+    "visualization": {
+      "type": "object",
+      "required": ["anchors"],
+      "properties": {
+        "severity": { "type": "string", "enum": ["info", "warning", "critical"], "default": "info" },
+        "ttl_s": { "type": "number", "minimum": 0, "default": 30 },
+        "label": { "type": "string", "default": "" },
+        "anchors": { "type": "array", "items": { "$ref": "#/$defs/anchor" } }
+      }
+    }
+  },
+  "$defs": {
+    "vec3": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+    "quat": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 },
+    "anchor": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "enum": ["bbox2d", "point", "polyline", "polygon", "text"] },
+        "frame": { "type": "string", "default": "image" },
+        "bbox2d": {
+          "type": "object",
+          "properties": { "x": { "type": "integer" }, "y": { "type": "integer" }, "w": { "type": "integer" }, "h": { "type": "integer" } },
+          "required": ["x","y","w","h"]
+        },
+        "point": { "type": "object", "properties": { "p": { "$ref": "#/$defs/vec3" } }, "required": ["p"] },
+        "polyline": { "type": "object", "properties": { "points": { "type": "array", "items": { "$ref": "#/$defs/vec3" }, "minItems": 2 } }, "required": ["points"] },
+        "polygon": { "type": "object", "properties": { "points": { "type": "array", "items": { "$ref": "#/$defs/vec3" }, "minItems": 3 } }, "required": ["points"] },
+        "text": { "type": "object", "properties": { "value": { "type": "string" } }, "required": ["value"] }
+      },
+      "allOf": [
+        { "if": { "properties": { "type": { "const": "bbox2d" } } }, "then": { "required": ["bbox2d"] } },
+        { "if": { "properties": { "type": { "const": "point" } } }, "then": { "required": ["point"] } },
+        { "if": { "properties": { "type": { "const": "polyline" } } }, "then": { "required": ["polyline"] } },
+        { "if": { "properties": { "type": { "const": "polygon" } } }, "then": { "required": ["polygon"] } },
+        { "if": { "properties": { "type": { "const": "text" } } }, "then": { "required": ["text"] } }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "scenario": "C",
+  "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+  "kaggle": "damage5",
+  "p95_latency_ms": 76.07692865003628,
+  "mean_latency_ms": 29.87660330018116,
+  "events_per_min": 0.0,
+  "n_frames": 50,
+  "timestamp": "2026-02-05T19:10:05"
+}

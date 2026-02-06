@@ -1,0 +1,20 @@
+{
+  "scenario": "B",
+  "time_utc": "2026-02-05T18:44:54",
+  "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+  "kaggle": "fire",
+  "network": {
+    "loss": 0.2,
+    "delay_ms": 150.0,
+    "jitter_ms": 80.0
+  },
+  "theta": 0.5,
+  "metrics": {
+    "n_sent": 50,
+    "n_ok": 32,
+    "reliability": 0.64,
+    "p50_ms": 380.7324584995513,
+    "p95_ms": 472.2451171495777,
+    "mean_ms": 378.3900275312817
+  }
+}

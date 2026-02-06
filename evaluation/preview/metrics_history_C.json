@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 212.69708299951162,
+    "mean_latency_ms": 44.791404099851206,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T19:10:04"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 205.05030589947637,
+    "mean_latency_ms": 34.92960214998675,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T19:10:04"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 128.58253489912386,
+    "mean_latency_ms": 31.722669400066177,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T19:10:05"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 59.297980598876165,
+    "mean_latency_ms": 29.929648925099173,
+    "events_per_min": 0.0,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T19:10:05"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 76.07692865003628,
+    "mean_latency_ms": 29.87660330018116,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T19:10:05"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 76.07692865003628,
+    "mean_latency_ms": 29.87660330018116,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T19:10:05"
+  }
+]

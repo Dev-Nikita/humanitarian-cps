@@ -1,0 +1,42 @@
+[
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 648.705957999482,
+    "mean_latency_ms": 374.0881042998808,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T19:09:51"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 638.7514621995251,
+    "mean_latency_ms": 366.4367230498101,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T19:09:55"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 539.2065041999558,
+    "mean_latency_ms": 355.9883126998102,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T19:09:59"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 490.08244019987615,
+    "mean_latency_ms": 362.12165476301476,
+    "events_per_min": 0.0,
+    "n_frames": 38,
+    "timestamp": "2026-02-05T19:10:02"
+  }
+]

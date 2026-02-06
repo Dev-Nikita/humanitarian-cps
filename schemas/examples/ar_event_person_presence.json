@@ -1,0 +1,17 @@
+{
+  "id": "b7f5b1c6-1b1a-4b6d-9dd8-5c9ab8b3d111",
+  "ts": 1700000000.123,
+  "event_type": "person_presence",
+  "confidence": 0.78,
+  "sources": ["cam-1"],
+  "frame": { "coord_system": "local" },
+  "payload": { "per_sensor_conf": { "cam-1": 0.78 } },
+  "visualization": {
+    "severity": "warning",
+    "ttl_s": 20,
+    "label": "Person detected",
+    "anchors": [
+      { "type": "bbox2d", "frame": "image", "bbox2d": { "x": 120, "y": 80, "w": 64, "h": 128 } }
+    ]
+  }
+}

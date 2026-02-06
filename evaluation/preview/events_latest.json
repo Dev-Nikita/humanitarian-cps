@@ -1,0 +1,27 @@
+[
+  {
+    "ts": 1770318585.4053137,
+    "event_type": "person_presence",
+    "confidence": 0.5520451033663324,
+    "sources": [
+      "kaggle-peoplecounting"
+    ],
+    "payload": {
+      "anchors": [
+        {
+          "type": "bbox2d",
+          "frame": "image",
+          "bbox2d": {
+            "x": 0,
+            "y": 0,
+            "w": 95,
+            "h": 188
+          }
+        }
+      ],
+      "per_sensor_conf": {
+        "kaggle-peoplecounting": 0.5520451033663324
+      }
+    }
+  }
+]

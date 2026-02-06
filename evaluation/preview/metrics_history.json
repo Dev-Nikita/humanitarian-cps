@@ -1,0 +1,1002 @@
+[
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 47.22569185023531,
+    "mean_latency_ms": 22.11370334003732,
+    "events_per_min": 19.258188020337634,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T17:56:21"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 45.07808299968019,
+    "mean_latency_ms": 21.89880819987593,
+    "events_per_min": 35.44876184128067,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T17:57:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 44.029249699678985,
+    "mean_latency_ms": 20.71804570000495,
+    "events_per_min": 31.020526497182914,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T17:57:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 40.656197949874695,
+    "mean_latency_ms": 21.797116533283162,
+    "events_per_min": 26.98812422002156,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T17:57:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 36.93873160004841,
+    "mean_latency_ms": 20.876739449977322,
+    "events_per_min": 24.56025649183473,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T17:57:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 35.9431276001942,
+    "mean_latency_ms": 20.395777419980732,
+    "events_per_min": 22.490230944275474,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T17:57:14"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 35.9431276001942,
+    "mean_latency_ms": 20.395777419980732,
+    "events_per_min": 22.329876138684355,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T17:57:14"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 571.6800000000148,
+    "mean_latency_ms": 373.471925100057,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T17:57:19"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 565.2996625000014,
+    "mean_latency_ms": 377.9799793499933,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T17:57:24"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 517.7494062501864,
+    "mean_latency_ms": 377.87865573333573,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T17:57:28"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 551.7179062499054,
+    "mean_latency_ms": 380.550257470585,
+    "events_per_min": 0.0,
+    "n_frames": 34,
+    "timestamp": "2026-02-05T17:57:30"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 229.1073750002397,
+    "mean_latency_ms": 49.9608582998917,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T17:57:32"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 221.81783335022374,
+    "mean_latency_ms": 38.0700311999135,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T17:57:32"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 148.9224168500641,
+    "mean_latency_ms": 33.796084733179065,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T17:57:32"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 81.63337949995366,
+    "mean_latency_ms": 31.167324974967414,
+    "events_per_min": 0.0,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T17:57:33"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 93.63294185027371,
+    "mean_latency_ms": 31.091679980017943,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T17:57:33"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 93.63294185027371,
+    "mean_latency_ms": 31.091679980017943,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T17:57:33"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 471.36904199942364,
+    "mean_latency_ms": 385.68193380015146,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T17:58:13"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 469.8489357494509,
+    "mean_latency_ms": 371.51701490006417,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T17:58:18"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 474.43231739962357,
+    "mean_latency_ms": 361.46188459268296,
+    "events_per_min": 0.0,
+    "n_frames": 27,
+    "timestamp": "2026-02-05T17:58:21"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 467.01820900034363,
+    "mean_latency_ms": 366.41617100003714,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T17:58:40"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 495.12019794929074,
+    "mean_latency_ms": 365.7772876499166,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T17:58:44"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 521.6454998495919,
+    "mean_latency_ms": 372.4535334666143,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T17:58:49"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 504.9479999493542,
+    "mean_latency_ms": 377.49642961102836,
+    "events_per_min": 0.0,
+    "n_frames": 36,
+    "timestamp": "2026-02-05T17:58:52"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 68.28391599992756,
+    "mean_latency_ms": 26.434137499381904,
+    "events_per_min": 29.840846126591714,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:42:39"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 66.5344909999476,
+    "mean_latency_ms": 23.64884794988029,
+    "events_per_min": 26.418676915356972,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:42:39"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 49.040241000147944,
+    "mean_latency_ms": 22.22085843325961,
+    "events_per_min": 23.90869978363644,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:42:40"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 32.837555600326596,
+    "mean_latency_ms": 21.227809449965207,
+    "events_per_min": 21.935397944686084,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:42:40"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 28.258951600309956,
+    "mean_latency_ms": 20.747260019961686,
+    "events_per_min": 20.22659636791573,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:42:40"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 28.258951600309956,
+    "mean_latency_ms": 20.747260019961686,
+    "events_per_min": 20.151700138426797,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:42:40"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 48.22404200058372,
+    "mean_latency_ms": 24.635941600172373,
+    "events_per_min": 37.70331481664039,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:42:51"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 48.080044100515806,
+    "mean_latency_ms": 23.10002925005392,
+    "events_per_min": 31.823343925171248,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:42:51"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 46.64006509983665,
+    "mean_latency_ms": 21.86514306655833,
+    "events_per_min": 28.298775810191092,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:42:51"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 44.474102699223295,
+    "mean_latency_ms": 20.99817817488656,
+    "events_per_min": 25.586788072077038,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:42:51"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 35.7742896992022,
+    "mean_latency_ms": 20.535715879959753,
+    "events_per_min": 23.324642064431554,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:42:52"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 35.7742896992022,
+    "mean_latency_ms": 20.535715879959753,
+    "events_per_min": 23.229953501921983,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:42:52"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 48.48308399959933,
+    "mean_latency_ms": 22.705325099741458,
+    "events_per_min": 43.86685759556831,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:43:15"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 47.170602699588926,
+    "mean_latency_ms": 20.82064595006159,
+    "events_per_min": 37.426831564397766,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:43:15"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 38.943379649754206,
+    "mean_latency_ms": 20.8556612667356,
+    "events_per_min": 32.19951092636361,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:43:16"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 30.86669409985916,
+    "mean_latency_ms": 20.389926200095942,
+    "events_per_min": 28.609783964266512,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:43:16"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 28.15196509964153,
+    "mean_latency_ms": 19.97718676004297,
+    "events_per_min": 25.81373056763627,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:43:16"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 28.15196509964153,
+    "mean_latency_ms": 19.97718676004297,
+    "events_per_min": 25.693485982934327,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:43:16"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 36.19100000105391,
+    "mean_latency_ms": 21.773033300269162,
+    "events_per_min": 33.84171203737111,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:44:18"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 35.49423335098254,
+    "mean_latency_ms": 20.420348000425292,
+    "events_per_min": 29.733147682006926,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:44:19"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.461956250543153,
+    "mean_latency_ms": 19.998016766900644,
+    "events_per_min": 26.640596822986573,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:44:19"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 24.446139898736874,
+    "mean_latency_ms": 19.89855007514052,
+    "events_per_min": 23.975826984131217,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:44:19"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.028841549006756,
+    "mean_latency_ms": 19.9269117401127,
+    "events_per_min": 21.54149540247723,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:44:19"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.028841549006756,
+    "mean_latency_ms": 19.9269117401127,
+    "events_per_min": 21.45847356417967,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:44:19"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 37.59633300069254,
+    "mean_latency_ms": 21.03929579989199,
+    "events_per_min": 47.55679463526276,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:44:28"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 36.82807465065707,
+    "mean_latency_ms": 19.786589549858036,
+    "events_per_min": 40.31395315308389,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:44:29"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.145491150302405,
+    "mean_latency_ms": 19.563341666556273,
+    "events_per_min": 34.90095747395515,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:44:29"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 28.042909750092804,
+    "mean_latency_ms": 19.693558274957468,
+    "events_per_min": 30.554145296260483,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:44:29"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.21081234981102,
+    "mean_latency_ms": 20.13671661996341,
+    "events_per_min": 26.795453834004164,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:44:29"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.21081234981102,
+    "mean_latency_ms": 20.13671661996341,
+    "events_per_min": 26.67920171742069,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:44:29"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 517.3970420000842,
+    "mean_latency_ms": 393.8520461000735,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:44:43"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 514.6977670000524,
+    "mean_latency_ms": 382.13093350004783,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:44:47"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 498.50160884989236,
+    "mean_latency_ms": 381.2514752000425,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:44:52"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 495.0660755498575,
+    "mean_latency_ms": 378.3900275312817,
+    "events_per_min": 0.0,
+    "n_frames": 32,
+    "timestamp": "2026-02-05T18:44:54"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 223.10387600009562,
+    "mean_latency_ms": 50.7985792000909,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:45:24"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 216.95842180006366,
+    "mean_latency_ms": 37.985216800279886,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:45:25"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 155.50387979974403,
+    "mean_latency_ms": 33.76376260008934,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:45:25"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 97.76533574950008,
+    "mean_latency_ms": 31.197844925054596,
+    "events_per_min": 0.0,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:45:25"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 133.86429824995503,
+    "mean_latency_ms": 32.395232600028976,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:45:26"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 133.86429824995503,
+    "mean_latency_ms": 32.395232600028976,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:45:26"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 216.2752919994091,
+    "mean_latency_ms": 49.12592910022795,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:45:56"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 210.0992273994052,
+    "mean_latency_ms": 36.661847900268185,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:45:56"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 148.33858139936638,
+    "mean_latency_ms": 32.52027356678203,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:45:56"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 90.57780624943916,
+    "mean_latency_ms": 29.670258275109518,
+    "events_per_min": 0.0,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:45:57"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 92.31450435036095,
+    "mean_latency_ms": 29.17469328014704,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:45:57"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 92.31450435036095,
+    "mean_latency_ms": 29.17469328014704,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:45:57"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 57.98733400115452,
+    "mean_latency_ms": 22.747833400353556,
+    "events_per_min": 33.72576337471199,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:46:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 56.11904645111281,
+    "mean_latency_ms": 20.592147950355866,
+    "events_per_min": 29.928566246820232,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:46:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 38.14564840076855,
+    "mean_latency_ms": 20.15714313359543,
+    "events_per_min": 26.820401381634408,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:46:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 21.84704405044613,
+    "mean_latency_ms": 19.62997920027192,
+    "events_per_min": 24.430179977499538,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:46:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 21.202064550379873,
+    "mean_latency_ms": 19.29090834026283,
+    "events_per_min": 22.45150045873966,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:46:13"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 21.202064550379873,
+    "mean_latency_ms": 19.29090834026283,
+    "events_per_min": 22.372821143930718,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:46:13"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 572.6133339994703,
+    "mean_latency_ms": 402.187629600121,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:46:20"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 565.8886589994836,
+    "mean_latency_ms": 383.83743779986617,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:46:24"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 516.5207399503743,
+    "mean_latency_ms": 382.4735032141819,
+    "events_per_min": 0.0,
+    "n_frames": 28,
+    "timestamp": "2026-02-05T18:46:28"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 202.81920900015393,
+    "mean_latency_ms": 46.98410840010183,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:46:29"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 195.89839435020622,
+    "mean_latency_ms": 36.534523050067946,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:46:30"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 126.69024785072907,
+    "mean_latency_ms": 33.97034730005544,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:46:30"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 64.33605355114196,
+    "mean_latency_ms": 32.139983375054726,
+    "events_per_min": 0.0,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:46:30"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 88.73915990061505,
+    "mean_latency_ms": 32.60671170002752,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:46:31"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 88.73915990061505,
+    "mean_latency_ms": 32.60671170002752,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:46:31"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 54.072000000815024,
+    "mean_latency_ms": 22.656579200338456,
+    "events_per_min": 42.485107486419224,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:46:43"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 52.442685400728806,
+    "mean_latency_ms": 20.72301045018321,
+    "events_per_min": 36.542736176472765,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:46:44"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 40.267366300031426,
+    "mean_latency_ms": 20.80085696682848,
+    "events_per_min": 31.598077081716493,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:46:44"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.578964549000375,
+    "mean_latency_ms": 20.767289600053118,
+    "events_per_min": 27.841205116861193,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:46:44"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.72523124963118,
+    "mean_latency_ms": 20.7530824600326,
+    "events_per_min": 24.91535738679774,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:46:44"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.72523124963118,
+    "mean_latency_ms": 20.7530824600326,
+    "events_per_min": 24.796949538061703,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:46:44"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 522.6354580008774,
+    "mean_latency_ms": 408.19647510015784,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:46:51"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 519.3811163508144,
+    "mean_latency_ms": 372.9712730000756,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:46:55"
+  },
+  {
+    "scenario": "B",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide",
+    "kaggle": "fire",
+    "p95_latency_ms": 571.8144170004962,
+    "mean_latency_ms": 379.9832429310833,
+    "events_per_min": 0.0,
+    "n_frames": 29,
+    "timestamp": "2026-02-05T18:47:00"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 334.5621669996035,
+    "mean_latency_ms": 60.74286229995778,
+    "events_per_min": 0.0,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T18:47:02"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 321.6799127996637,
+    "mean_latency_ms": 43.965956149895646,
+    "events_per_min": 0.0,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T18:47:02"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 192.85737080026593,
+    "mean_latency_ms": 37.988143033362576,
+    "events_per_min": 0.0,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T18:47:02"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 75.81553510080994,
+    "mean_latency_ms": 34.60486877511357,
+    "events_per_min": 0.0,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T18:47:03"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 91.43691440112889,
+    "mean_latency_ms": 34.18305000002874,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:47:03"
+  },
+  {
+    "scenario": "C",
+    "dataset": "data/kaggle/Fire-Flood-Smoke-Landslide/disaster_dataset",
+    "kaggle": "damage5",
+    "p95_latency_ms": 91.43691440112889,
+    "mean_latency_ms": 34.18305000002874,
+    "events_per_min": 0.0,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T18:47:03"
+  }
+]

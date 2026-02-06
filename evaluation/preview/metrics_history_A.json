@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 38.66754199952993,
+    "mean_latency_ms": 21.386799900028564,
+    "events_per_min": 30.177569967939554,
+    "n_frames": 10,
+    "timestamp": "2026-02-05T19:09:45"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 37.83287114956693,
+    "mean_latency_ms": 20.178356199903646,
+    "events_per_min": 26.986633769752196,
+    "n_frames": 20,
+    "timestamp": "2026-02-05T19:09:45"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 29.486162649936887,
+    "mean_latency_ms": 19.632990233246044,
+    "events_per_min": 24.483534012610384,
+    "n_frames": 30,
+    "timestamp": "2026-02-05T19:09:46"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 21.96466665027401,
+    "mean_latency_ms": 19.235796774864866,
+    "events_per_min": 22.44043336751527,
+    "n_frames": 40,
+    "timestamp": "2026-02-05T19:09:46"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 21.870083150315622,
+    "mean_latency_ms": 19.002734079913353,
+    "events_per_min": 20.72902324894087,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T19:09:46"
+  },
+  {
+    "scenario": "A",
+    "dataset": "data/kaggle/PeopleCountingDataSet",
+    "kaggle": "peoplecounting",
+    "p95_latency_ms": 21.870083150315622,
+    "mean_latency_ms": 19.002734079913353,
+    "events_per_min": 20.641034673752326,
+    "n_frames": 50,
+    "timestamp": "2026-02-05T19:09:46"
+  }
+]

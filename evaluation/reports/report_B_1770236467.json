@@ -1,0 +1,18 @@
+{
+  "scenario": "B",
+  "time_utc": "2026-02-04T20:21:07",
+  "network": {
+    "loss": 0.15,
+    "delay_ms": 120.0,
+    "jitter_ms": 80.0
+  },
+  "theta": 0.5,
+  "metrics": {
+    "n_sent": 50,
+    "n_ok": 35,
+    "reliability": 0.7,
+    "p50_ms": 472.81554199980746,
+    "p95_ms": 548.7563633998434,
+    "mean_ms": 463.3253621712356
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": "A",
+  "time_utc": "2026-02-05T16:04:50",
+  "dataset": "data/kaggle/PeopleCountingDataSet",
+  "kaggle": "peoplecounting",
+  "network": {
+    "loss": 0.0,
+    "delay_ms": 0.0,
+    "jitter_ms": 0.0
+  },
+  "theta": 0.5,
+  "metrics": {
+    "n_sent": 50,
+    "n_ok": 49,
+    "reliability": 0.98,
+    "p50_ms": 19.68166600000032,
+    "p95_ms": 22.110883599999195,
+    "mean_ms": 19.88782918367349
+  }
+}

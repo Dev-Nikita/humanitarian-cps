@@ -1,0 +1,18 @@
+{
+  "id": "2d0fdf2d-7d93-4e38-9b6a-2b5e5d1a1001",
+  "ts": 1700000100.456,
+  "event_type": "smoke",
+  "confidence": 0.66,
+  "sources": ["uav-1"],
+  "frame": { "coord_system": "wgs84", "geo": { "lat": 48.6234, "lon": 22.2952, "alt_m": 230.0 } },
+  "payload": { "note": "Suspected smoke plume" },
+  "visualization": {
+    "severity": "critical",
+    "ttl_s": 60,
+    "label": "Smoke",
+    "anchors": [
+      { "type": "point", "frame": "world", "point": { "p": [0.0, 0.0, 0.0] } },
+      { "type": "text", "frame": "world", "text": { "value": "Smoke plume" } }
+    ]
+  }
+}

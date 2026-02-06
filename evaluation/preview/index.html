@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Humanitarian CPS – Live AR Preview</title>
+    <style>
+        body { font-family: sans-serif; margin: 30px; }
+        canvas { border: 1px solid #aaa; background: #fdfdfd; }
+        .panel {
+            margin-top: 15px;
+            padding: 12px;
+            width: 640px;
+            border: 1px solid #ccc;
+            background: #fafafa;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>AR Preview (Bounding Boxes)</h2>
+<canvas id="c" width="640" height="480"></canvas>
+
+<h3>Latency P95 (history)</h3>
+<canvas id="lat" width="640" height="200"></canvas>
+
+<div class="panel" id="metrics">Loading metrics…</div>
+
+<script>
+    const canvas = document.getElementById("c");
+    const ctx = canvas.getContext("2d");
+
+    const latCanvas = document.getElementById("lat");
+    const latCtx = latCanvas.getContext("2d");
+
+    async function drawAR() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        try {
+            let events = [];
+            try {
+                events = await fetch("events.json", { cache: "no-store" }).then(r => r.json());
+                if (!events.length) {
+                    events = await fetch("events_latest.json", { cache: "no-store" }).then(r => r.json());
+                }
+            } catch (e) {
+                // ignore
+            }
+
+            events.forEach(e => {
+                const anchors = e.payload?.anchors || [];
+                anchors.forEach(a => {
+                    if (a.type === "bbox2d") {
+                        const b = a.bbox2d;
+                        ctx.strokeStyle = "red";
+                        ctx.lineWidth = 2;
+                        ctx.strokeRect(b.x, b.y, b.w, b.h);
+                        ctx.fillStyle = "red";
+                        ctx.fillText(e.event_type, b.x + 4, b.y + 12);
+                    }
+                });
+            });
+
+        } catch (err) {
+            console.warn("No events yet");
+        }
+    }
+
+    async function drawLatency() {
+        latCtx.clearRect(0, 0, latCanvas.width, latCanvas.height);
+
+        try {
+            const hist = await fetch("metrics_history.json").then(r => r.json());
+            if (!hist.length) return;
+
+            const vals = hist.map(h => h.p95_latency_ms);
+            const max = Math.max(...vals) || 1;
+
+            latCtx.beginPath();
+            latCtx.strokeStyle = "blue";
+            vals.forEach((v, i) => {
+                const x = (i / (vals.length - 1)) * latCanvas.width;
+                const y = latCanvas.height - (v / max) * latCanvas.height;
+                if (i === 0) latCtx.moveTo(x, y);
+                else latCtx.lineTo(x, y);
+            });
+            latCtx.stroke();
+
+        } catch {}
+    }
+
+    async function drawMetrics() {
+        try {
+            const m = await fetch("metrics.json").then(r => r.json());
+            document.getElementById("metrics").innerHTML = `
+      <b>Scenario:</b> ${m.scenario}<br>
+      <b>P95 latency:</b> ${m.p95_latency_ms.toFixed(1)} ms<br>
+      <b>Mean latency:</b> ${m.mean_latency_ms.toFixed(1)} ms<br>
+      <b>Events / min:</b> ${m.events_per_min.toFixed(1)}<br>
+      <b>Frames:</b> ${m.n_frames}<br>
+      <b>Updated:</b> ${m.timestamp}
+    `;
+        } catch {
+            document.getElementById("metrics").innerText = "Waiting for metrics.json…";
+        }
+    }
+
+    async function tick() {
+        await drawAR();
+        await drawLatency();
+        await drawMetrics();
+    }
+
+    setInterval(tick, 1500);
+    tick();
+</script>
+
+</body>
+</html>
