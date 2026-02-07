@@ -7,7 +7,6 @@ A minimal, working reference implementation for the paper sections (3–5):
 - **simulation**: network degradation emulator + synthetic load generator + metrics
 - **evaluation**: notebooks placeholder
 
-> Goal: You can run this locally via Docker Compose and reproduce latency / reliability experiments without “lab equipment”.
 
 ---
 
